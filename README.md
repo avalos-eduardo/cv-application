@@ -9,7 +9,7 @@
   - Working on this project helped me familiarize myself with the process of passing props between parent and child components.
   - In child components such as EditEducation, I used these props to link the form elements to the useState and button functionalities defined in the parent App component.
  
--useState Hook
+- useState Hook
   - In this project, I utilized the useState Hook to dynamically render the values entered in the child component inputs and display them on the created resume.
   - The inputs were initialized with empty string values using useState and were updated using the set function and e.target to track the correct input.
   - The contents of these useState hooks are then passed on as props to the child components responsible for rendering the resume information such as Education and Experience.
