@@ -1,12 +1,21 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What I Learned & Used For This Project
+- Mapping Data to Render UI
+  - For this project, I created a dataset with arrays containing objects that defined HTML attributes for each element in my form.
+  - I then mapped over these arrays to dynamically generate JSX that would display each element (labels, inputs, etc.) within their respective form groups.
 
-Currently, two official plugins are available:
+- Using Components & Props
+  - Working on this project helped me familiarize myself with the process of passing props between parent and child components.
+  - In child components such as EditEducation, I used these props to link the form elements to the useState and button functionalities defined in the parent App component.
+ 
+-useState Hook
+  - In this project, I utilized the useState Hook to dynamically render the values entered in the child component inputs and display them on the created resume.
+  - The inputs were initialized with empty string values using useState and were updated using the set function and e.target to track the correct input.
+  - The contents of these useState hooks are then passed on as props to the child components responsible for rendering the resume information such as Education and Experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ideas for Future Improvement
+- Splitting the CSS into more files to be clear about which components the CSS is being used for
+- Adding functionality to edit or delete entries
+- Improving on Git workflow
+  - Commit more often for project milestones and create meaningful commit messages
