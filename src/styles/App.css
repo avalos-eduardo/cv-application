@@ -152,6 +152,7 @@
   color: white;
   border-radius: 12px;
   font-size: 1.25rem;
+  cursor: pointer;
 }
 
 .clear-button {
@@ -163,4 +164,5 @@
   color: white;
   border-radius: 12px;
   font-size: 1.25rem;
+  cursor: pointer;
 }
